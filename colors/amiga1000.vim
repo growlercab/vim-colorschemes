@@ -1,15 +1,16 @@
 " Vim color file
-" Maintainer:   Maarten Slaets
-" Last Change:  2002 Aug 16
+" Maintainer:   Growlercab
+" Last Change:  2017 May 11
 
-" Color settings similar to that used in IBM Edit
+" Colour settings similar to Amiga 1000 Workbench 1.1 to 1.3
+" (based on the ibmedit colour file)
 
 set background=dark
 hi clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name="ibmedit"
+let g:colors_name="amiga1000"
 
 hi Normal       term=NONE cterm=NONE ctermfg=Gray ctermbg=DarkBlue
 hi Normal       gui=NONE guifg=#FFFFFF guibg=#0054a8
