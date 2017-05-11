@@ -21,15 +21,15 @@ hi Statement    gui=NONE guifg=White guibg=#0054a8
 hi Special      term=NONE cterm=NONE ctermfg=White ctermbg=DarkBlue
 hi Special      gui=NONE guifg=White guibg=#0054a8
 hi Constant     term=NONE cterm=NONE ctermfg=Cyan ctermbg=DarkBlue
-hi Constant     gui=NONE guifg=#f48400 guibg=#0054a8
+hi Constant     gui=NONE guifg=#ff66ff guibg=#0054a8
 hi Comment      term=NONE cterm=NONE ctermfg=Blue ctermbg=DarkBlue
-hi Comment      gui=NONE guifg=#FFFF66 guibg=#0054a8
+hi Comment      gui=NONE guifg=#aaaaaa guibg=#0054a8
 hi Preproc      term=NONE cterm=NONE ctermfg=Cyan ctermbg=DarkBlue
 hi Preproc      gui=NONE guifg=#f48400 guibg=#0054a8
 hi Type         term=NONE cterm=NONE ctermfg=Gray ctermbg=DarkBlue
 hi Type         gui=NONE guifg=#f48400 guibg=#0054a8
 hi Identifier   term=NONE cterm=NONE ctermfg=Grey ctermbg=DarkBlue
-hi Identifier   gui=NONE guifg=#f48400 guibg=#0054a8
+hi Identifier   gui=NONE guifg=#aaaaaa guibg=#0054a8
 
 hi StatusLine   term=bold cterm=bold ctermfg=Black ctermbg=White
 hi StatusLine   gui=bold guifg=Black guibg=White
