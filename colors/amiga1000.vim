@@ -21,7 +21,7 @@ hi Statement    gui=NONE guifg=White guibg=#0054a8
 hi Special      term=NONE cterm=NONE ctermfg=White ctermbg=DarkBlue
 hi Special      gui=NONE guifg=White guibg=#0054a8
 hi Constant     term=NONE cterm=NONE ctermfg=Cyan ctermbg=DarkBlue
-hi Constant     gui=NONE guifg=#ff66ff guibg=#0054a8
+hi Constant     gui=NONE guifg=#ffff66 guibg=#0054a8
 hi Comment      term=NONE cterm=NONE ctermfg=Blue ctermbg=DarkBlue
 hi Comment      gui=NONE guifg=#aaaaaa guibg=#0054a8
 hi Preproc      term=NONE cterm=NONE ctermfg=Cyan ctermbg=DarkBlue
