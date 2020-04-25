@@ -62,7 +62,7 @@ hi SignColumn   guifg=#ffffff          guibg=#696969   gui=NONE
 
 hi SpecialKey   guifg=#ffffff          guibg=#696969   gui=NONE
 
-hi SpellBad     guisp=#ffffff          guibg=#000000   gui=undercurl    guisp=#ffc0c0
+hi SpellBad     guifg=#FF0000          guibg=#00FFFF   gui=bold guisp=#ff0000
 hi SpellCap     guisp=#5d5d5d                          gui=undercurl
 hi SpellLocal   guisp=#434343                          gui=undercurl
 hi SpellRare    guisp=#7d7d7d                          gui=undercurl
@@ -77,16 +77,16 @@ hi WarningMsg   guifg=#cfcfcf          guibg=#5b5b5b   gui=NONE
 hi WildMenu     guifg=#000000          guibg=#828282   gui=NONE
 hi Boolean      guifg=#616060          guibg=NONE      gui=bold
 hi Ignore       guifg=bg               guibg=NONE      gui=NONE
-hi Error        guifg=#ff7272          guibg=#FF0000   gui=undercurl guisp=#ff0000
+hi Error        guifg=#ff0000          guibg=#00FFFF   gui=NONE guisp=#ff0000
 " -----------------------------------------------------------------------------
 hi VimError         guifg=#b6b6b6      guibg=#313131   gui=bold
 hi VimCommentTitle  guifg=#5c5c5c      guibg=bg        gui=bold,italic
-hi qfFileName       guifg=#6a6a6a      guibg=NONE      gui=italic
-hi qfLineNr         guifg=fg           guibg=NONE      gui=NONE
-hi qfError          guifg=fg           guibg=#000000   gui=undercurl
+hi qfFileName       guifg=#6a6a6a      guibg=bg        gui=italic
+hi qfLineNr         guifg=fg           guibg=bg        gui=NONE
+hi qfError          guifg=fg           guibg=bg        gui=undercurl
 
 " -----------------------------------------------------------------------------
-hi pythonDecorator  guifg=#3b3b3b      guibg=NONE      gui=bold
+hi pythonDecorator  guifg=#3b3b3b      guibg=bg        gui=bold
 hi link pythonDecoratorFunction pythonDecorator
 " -----------------------------------------------------------------------------
 hi htmlLink         guifg=#1a00aa      guibg=NONE      gui=underline,italic
